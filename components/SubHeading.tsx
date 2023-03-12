@@ -9,7 +9,7 @@ type Props = {
 export default function SubHeading({title}: Props) {
   return (
     <div className='mb-4 lg:mb-8'>
-      <p className='text-white font-serif italic font-extrabold capitalize text-lg'>
+      <p className='text-white font-serif italic font-extrabold capitalize text-medium md:text-lg'>
         {title}
       </p>
       <Image src={images.spoon} alt="subheading-img" className='w-[45px]' />
