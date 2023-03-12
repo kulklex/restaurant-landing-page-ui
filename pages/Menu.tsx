@@ -32,7 +32,7 @@ export default function Menu({}: Props) {
           </div>
         </div>
 
-        <div className='w-full md:w-[410px] mx-2 md:mx-8'>
+        <div className='w-full md:w-[410px] mx-2 my-4 md:mx-8'>
           <Image src={images.menu} alt="menu-image" className='w-full h-auto' />
         </div>
 
