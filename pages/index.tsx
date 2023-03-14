@@ -7,7 +7,7 @@ import Laurels from './Laurels'
 import Intro from './Intro'
 import Gallery from './Gallery'
 import FindUs from './FindUs'
-import Footer from '../components/Footer'
+import Footer from './Footer'
 import Menu from './Menu'
 
 type Props = {}

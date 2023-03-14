@@ -20,10 +20,10 @@ export default function FindUs({}: Props) {
           <p className="text-[#DCCA87] font-sans capitalize font-normal text-base lg:text-lg cursor-pointer my-4 lg:my-8 hover:text-white">
             Opening Hours
           </p>
-          <p className="p__opensans font-sans capitalize font-normal text-base lg:text-lg text-white cursor-pointer my-4 lg:my-8 hover:text-[#DCCA87]">
+          <p className="font-sans capitalize font-normal text-base lg:text-lg text-white cursor-pointer my-4 lg:my-8 hover:text-[#DCCA87]">
             Mon - Fri: 10:00 am - 02:00 am
           </p>
-          <p className="p__opensans font-sans capitalize font-normal text-base lg:text-lg text-white cursor-pointer my-4 lg:my-8 hover:text-[#DCCA87]">
+          <p className="font-sans capitalize font-normal text-base lg:text-lg text-white cursor-pointer my-4 lg:my-8 hover:text-[#DCCA87]">
             Sat - Sun: 10:00 am - 03:00 am
           </p>
         </div>
