@@ -63,3 +63,15 @@ Link {
     font-family: 'Cormorant Upright', serif;
     letter-spacing: 0.04em;
   }
+
+  .scrollBar {
+    scrollbar-width: none !important;
+  }
+
+  .scrollBar ::-webkit-scrollbar{
+    display: none;
+  }
+
+  .scrollBarCard {
+    
+  }
