@@ -35,11 +35,6 @@ export default function Footer({}: Props) {
           <p className='mt-6 font-sans capitalize font-normal text-base lg:text-lg text-white cursor-pointer my-4 lg:my-8 hover:text-[#DCCA87]'>
             &quot;The best way to find yourself is to lose yourself in the service of others.&quot;
           </p>
-          <div>
-            <FiFacebook />
-            <FiTwitter />
-            <FiInstagram />
-          </div>
         </div>
 
         <div className='flex-[1] m-2 text-center'>
@@ -63,6 +58,11 @@ export default function Footer({}: Props) {
       </div>
         
       <div className='mt-2'>
+        <div className='text-white text-xl lg:text-2xl mt-2 flex justify-center items-center'>
+          <FiFacebook className='mx-2' />
+          <FiTwitter className='mx-2' />
+          <FiInstagram className='mx-2' />
+        </div>
         <p className='font-sans capitalize font-normal text-base lg:text-lg text-white cursor-pointer my-4 lg:my-8 hover:text-[#DCCA87]'>
           2023 Gericht. All Rights reserved
         </p>
